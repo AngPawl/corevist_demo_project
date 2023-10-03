@@ -12,8 +12,8 @@ class MainPage:
         self.scroll_to_top_button = browser.element('a#toTop')
         self.title = browser.element('.post-content h1')
 
-    @allure.step('Open Request a Demo Page')
-    def open_request_a_demo_page(self):
+    @allure.step('Open Book a Demo Page')
+    def open_book_a_demo_page(self):
         self.book_a_demo_button.perform(command=js.scroll_into_view).click()
 
     @allure.step('Scroll to the page footer')

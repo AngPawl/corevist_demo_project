@@ -2,7 +2,7 @@ import allure
 from selene import browser, be, have
 
 
-class RequestADemoPage:
+class BookADemoPage:
     def __init__(self):
         self.book_demo_form_title = browser.element(".post-content h4")
 
