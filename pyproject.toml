@@ -6,7 +6,7 @@ authors = ["Anhelina Babareka <anhielina.babareka@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 pytest = ">=7.4.2,<7.5.0"
 selene = ">=2.0.0rc4,<2.1.0"
 allure-pytest = ">=2.13.2,<2.14.0"
