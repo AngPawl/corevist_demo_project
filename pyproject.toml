@@ -3,7 +3,7 @@ name = "corevist-demo-project"
 version = "0.1.0"
 description = ""
 authors = ["Anhelina Babareka <anhielina.babareka@gmail.com>"]
-readme = "README.md"
+readme = ""
 
 [tool.poetry.dependencies]
 python = "^3.9"
