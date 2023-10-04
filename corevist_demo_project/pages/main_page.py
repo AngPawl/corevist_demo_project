@@ -6,7 +6,7 @@ from selene import browser, have, be, command
 
 class MainPage:
     def __init__(self):
-        self.mid_page_section = browser.element('.fusion-title-heading p')
+        self.mid_page_section = browser.element('.fusion-text h1[style] strong')
         self.scroll_to_top_button = browser.element('a#toTop')
         self.title = browser.element('.post-content h1')
 
